@@ -17,5 +17,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	buff->parent = parent;
 	buff->left = NULL;
 	buff->right = NULL;
-	return (new);
+	return (buff);
 }
